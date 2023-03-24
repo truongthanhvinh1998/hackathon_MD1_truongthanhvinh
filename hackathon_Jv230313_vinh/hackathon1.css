@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    height: 150px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+} 
+.ooo{
+    text-align: center;
+    padding: 20px;
+    
+}
+.header .header-1 .title{
+    color: aliceblue;
+
+}
+.header .header-2 .text{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 20px;
+}
+.header .items li:hover{
+    font-size: 200%;
+}
+.header .items{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header .header-3 li{
+    list-style: none;
+    color: aliceblue;
+}
+.navx{
+   
+   
+ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  padding: 30px 100px;
+  background-color: rgb(204, 206, 207);
+   
+    
+}
+
+.navx .nav .daban{
+    
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+.navx .nav img{
+    width: 150px;
+    height: 300px;
+}
+.navx .nav li{
+    list-style: none;
+}
+.navx .nav .apple{
+    display: flex;
+    justify-content: space-between;
+}
+.navx .nav{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+   
+
+}
+.navx .nav  h1{
+    padding: 10px;
+}
+
+.navx .nav h3{
+    padding: 30px 0;
+}
+.navx .nav .how{
+    color: rgb(223, 32, 32);
+}
+.navx .nav li{
+  padding: 10px;
+}
+.navx .nav li:hover{
+   color: firebrick;
+   cursor: pointer;
+}
+.footer{
+    border-top: 5px solid orangered;
+    padding: 10px 0 ;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid black;
+}
+.footer .footer-1 h3{
+    padding: 20px 0;
+   
+}
+.footer .footer-1 .hai:hover{
+ background-color: rgb(212, 134, 70);
+   
+}
+@media  screen and (max-width: 350px){
+   .header{
+    flex-direction: column;
+   }
+   .navx{
+    flex-direction: column;
+   }
+   .footer{
+    flex-direction: column;
+   }
+}
+
+ 
+    
+
+
+    
